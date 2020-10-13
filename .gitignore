@@ -1,6 +1,7 @@
 data.json
 data.txt
 submission.csv
+tableau.json
 .idea
 .pytest_cache
 env

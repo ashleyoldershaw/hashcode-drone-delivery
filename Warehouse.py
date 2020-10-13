@@ -12,7 +12,7 @@ class Warehouse:
 
         def remove(self, item_id, amount=1):
             if item_id not in self._stock or self._stock[item_id] < amount:
-                raise RuntimeError("Trying to take more than we have from a warehouse!")
+                 raise RuntimeError("Trying to take more than we have from a warehouse!")
 
             self._stock[item_id] = self._stock[item_id] - amount
             if self._stock[item_id] == 0:
